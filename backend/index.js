@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const port = 3000;
+const port = 5000;
 const mongoDB = require("./db");
 app.use(cors());
 // app.use((req, res, next) => {
@@ -10,6 +10,9 @@ app.use(cors());
 //   next();
 // });
 mongoDB();
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 app.use(express.json());
 app.use("/api", require("./Routes/CreateUser"));
 app.use("/api", require("./Routes/DisplayData"));

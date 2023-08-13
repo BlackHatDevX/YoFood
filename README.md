@@ -1,80 +1,70 @@
-# YoFood - Food Ordering App
+# Getting Started with Create React App
 
-YoFood is a food ordering app built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to browse through a variety of food items, add them to their cart, and place orders for delivery. The app showcases various features of a food ordering platform and demonstrates the integration of a frontend React application with a backend API.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![YoFood Screenshot](path-to-your-screenshot.png)
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- Browse and order from a diverse range of food items.
-- Single-page application built with React, providing a smooth user experience.
-- Cart functionality: Add and remove items, adjust quantities, and view the total cost.
-- Food categories: Explore different categories such as vegetarian, non-vegetarian, pizza, pasta, biryani, rice, etc.
-- User authentication: Register and log in to the app using encrypted JSON Web Tokens (JWT).
-- Secure and encrypted database storage for user data and order history.
-- User-friendly interface with options to select food variants.
-- Easy checkout process and view previous orders.
-- Fast and responsive application design for a seamless user experience.
+### `npm start`
 
-## Installation and Usage
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. Clone the repository:
-   `git clone https://github.com/BlackHatDevX/YoFood.git`
-2. Install dependencies for both the frontend and backend:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```
-cd YoFood
-npm install
-cd backend
-npm install
-```
+### `npm test`
 
-3. Start the backend server (default backend localhost:3000):
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-npm i nodemon
-nodemon
-```
+### `npm run build`
 
-4. Start the frontend in another terminal (default frontend localhost:3000):
-   Go to the root folder of repo i.e YoFood in commandline
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```
-npm start
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-5. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Technologies Used
+### `npm run eject`
 
-- **Frontend**: React, React Router, Axios
-- **Backend**: Express.js, Node.js
-- **Database**: MongoDB (encrypted using JWT)
-- **Authentication**: JSON Web Tokens (JWT)
-- **Styling**: CSS (you can add additional styling frameworks as needed)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Screenshots
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![YoFood Home Page](path-to-screenshot1.png)
-![YoFood Cart](path-to-screenshot2.png)
-![YoFood Order History](path-to-screenshot3.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Contributions
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Contributions are welcome! If you'd like to contribute to YoFood, feel free to submit pull requests or issues through the [GitHub repository](https://github.com/BlackHatDevX/YoFood).
+## Learn More
 
-## Contact
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Feel free to connect with me if you have any questions, suggestions, or just want to say hello!
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **Portfolio**: [bit.ly/jashgro](https://bit.ly/jashgro)
-- **Telegram**: [@deveIoper_x](https://telegram.dog/deveIoper_x)
-- **LinkedIn**: [Jash Gro](https://www.linkedin.com/in/jash-gro)
-- **Instagram**: [@jash_gro](https://www.instagram.com/jash_gro/)
-- **Twitter**: [@jash_gro](https://twitter.com/jash_gro)
+### Code Splitting
 
-Let's connect and collaborate!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## License
+### Analyzing the Bundle Size
 
-This project is licensed under the [MIT License](LICENSE).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
