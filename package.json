@@ -20,6 +20,7 @@
   "build": "react-scripts build",
   "start:backend": "cd backend && node index.js",
   "start:both": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  "start:delayed-backend": "npm run start:frontend && sleep 1m && npm run start:backend"
   },
   "eslintConfig": {
     "extends": [
