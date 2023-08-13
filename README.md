@@ -19,21 +19,26 @@ YoFood is a food ordering app built using the MERN (MongoDB, Express, React, Nod
 ## Installation and Usage
 
 1. Clone the repository:
-```git clone https://github.com/BlackHatDevX/YoFood.git```
+   `git clone https://github.com/BlackHatDevX/YoFood.git`
 2. Install dependencies for both the frontend and backend:
+
 ```
 cd YoFood
 npm install
 cd backend
 npm install
 ```
-3. Start the backend server (default backend localhost:5000):
+
+3. Start the backend server (default backend localhost:3000):
+
 ```
 npm i nodemon
 nodemon
 ```
+
 4. Start the frontend in another terminal (default frontend localhost:3000):
    Go to the root folder of repo i.e YoFood in commandline
+
 ```
 npm start
 ```
@@ -69,7 +74,6 @@ Feel free to connect with me if you have any questions, suggestions, or just wan
 - **Twitter**: [@jash_gro](https://twitter.com/jash_gro)
 
 Let's connect and collaborate!
-
 
 ## License
 
