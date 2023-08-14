@@ -60,9 +60,13 @@ npm start
 
 ## Screenshots
 
-![YoFood Home Page](path-to-screenshot1.png)
-![YoFood Cart](path-to-screenshot2.png)
-![YoFood Order History](path-to-screenshot3.png)
+
+<!-- ### YoFood Home Page -->
+<img src="https://github.com/BlackHatDevX/YoFood/assets/91268029/2073a778-f579-425d-a8bd-e698a977cd96" alt="YoFood Home Page" style="height:20rem;">
+<!-- ### YoFood Cart -->
+<img  src="https://github.com/BlackHatDevX/YoFood/assets/91268029/3f98789e-7a22-4f53-aede-ff7a07410616" alt="YoFood Cart"  style="height:20rem;">
+<!-- ### YoFood Order History -->
+<img src="https://github.com/BlackHatDevX/YoFood/assets/91268029/b3b551c3-c646-4b64-ab00-296537611f02" alt="YoFood Order History"  style="height:20rem;">
 
 ## Contributions
 
