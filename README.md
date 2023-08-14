@@ -37,8 +37,11 @@ npm i nodemon
 nodemon
 ```
 <br>
-🔴Change default backend url in frontend (/src/index.js) line - 8 change accordingly🔴
+<hr/>
+<bold>🔴Change default backend url in frontend (/src/index.js) line - 8 accordingly🔴</bold>
+<hr/>
 
+<br>
 4. Start the frontend in another terminal (default frontend localhost:3000), Go to the root folder of repo i.e YoFood in commandline
 
 ```
