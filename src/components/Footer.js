@@ -12,7 +12,7 @@ export default function Footer() {
           >
             <svg className="bi" width="30" height="24"></svg>
           </Link>
-          <span className="text-muted">© 2023 Gofood, Inc</span>
+          <span className="text-muted">© 2023 Yofood, Inc</span>
         </div>
       </footer>
     </div>
