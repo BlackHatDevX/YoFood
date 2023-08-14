@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-window.backendUrl = "http://localhost:5000";
+window.backendUrl = "https://yo-food-backend.onrender.com";
 root.render(
   <React.StrictMode>
     <App />
