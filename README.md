@@ -2,7 +2,7 @@
 
 YoFood is a food ordering app built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to browse through a variety of food items, add them to their cart, and place orders for delivery. The app showcases various features of a food ordering platform and demonstrates the integration of a frontend React application with a backend API.
 
-## Demo - https://yo-food-preview.onrender.com/
+## Demo - https://bit.ly/yofoodjash
 ![FireShot_Capture_001_-_Multi_Device_Website_Mockup_Generator_-_techsini com-removebg-preview (1)](https://github.com/BlackHatDevX/YoFood/assets/91268029/b1150665-2efc-4c51-8184-210f6cf6ca7a)
 
 ## Features
