@@ -6,7 +6,7 @@ const User = require("../models/User");
 const { body, validationResult } = require("express-validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const jwtSecret = "jashangroverisaproguyandheisnice";
+const jwtSecret = "jashgroisnotaproguy";
 router.post(
   "/createuser",
   [
@@ -60,7 +60,10 @@ router.post(
           .status(400)
           .json({ errors: "Try logging with correct credentials" });
       }
-      const pwdCompare = bcrypt.compare(req.body.password, userData.password);
+      const pwdCompare = await bcrypt.compare(
+        req.body.password,
+        userData.password
+      );
       if (!pwdCompare) {
         return res
           .status(400)
