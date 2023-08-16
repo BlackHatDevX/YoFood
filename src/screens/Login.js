@@ -40,7 +40,7 @@ export default function Login() {
   return (
     <div>
       <Navbar />
-      <div className="container">
+      <div className="container mt-3">
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
