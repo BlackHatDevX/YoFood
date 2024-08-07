@@ -140,7 +140,7 @@ export default function Home() {
             );
           })
         ) : (
-          <div>Baking our servers.... it might take some time</div>
+          <div>Booting our backend servers.... it might take seconds</div>
         )}
       </div>
       <Footer />
