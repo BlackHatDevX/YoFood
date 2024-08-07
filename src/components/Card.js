@@ -81,9 +81,9 @@ export default function Card(props) {
               ref={priceRef}
               onChange={(e) => setSize(e.target.value)}
             >
-              {priceOptions.map((data) => {
+              {priceOptions.map((data, index) => {
                 return (
-                  <option key={data} value={data}>
+                  <option key={index} value={data}>
                     {data}
                   </option>
                 );

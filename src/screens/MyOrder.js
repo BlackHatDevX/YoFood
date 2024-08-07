@@ -31,22 +31,25 @@ export default function MyOrder() {
       <div className="container">
         <div className="row">
           {orderData !== {} ? (
-            Array(orderData).map((data) => {
+            Array(orderData).map((data, index1) => {
               return data.orderData ? (
                 data.orderData.order_data
                   .slice(0)
                   .reverse()
-                  .map((item) => {
-                    return item.map((arrayData) => {
+                  .map((item, index2) => {
+                    return item.map((arrayData, index3) => {
                       return (
-                        <div>
+                        <div key={`order-${index1}-${index2}-${index3}`}>
                           {arrayData.Order_date ? (
                             <div className="m-auto mt-5">
                               {(data = arrayData.Order_date)}
                               <hr />
                             </div>
                           ) : (
-                            <div className="container">
+                            <div
+                              key={`order-item-${index1}-${index2}-${index3}`}
+                              className="container"
+                            >
                               <div className="row">
                                 <div className="col-12 col-md-6 col-lg-3">
                                   <div
@@ -86,7 +89,7 @@ export default function MyOrder() {
                     });
                   })
               ) : (
-                <div>
+                <div key={`no-order-${index1}`}>
                   <h2 className="m-5 p-5" style={{ textAlign: "center" }}>
                     Oops! You haven't ordered anything so far.
                     <br />

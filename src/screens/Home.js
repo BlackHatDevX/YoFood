@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           <div className="carousel-item active">
             <img
-              src="https://source.unsplash.com/random/360×700/?pizza"
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               className="d-block w-100"
               style={{ filter: "brightness(30%)" }}
               alt="..."
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className="carousel-item">
             <img
-              src="https://source.unsplash.com/random/360×700/?noodles"
+              src="https://images.unsplash.com/photo-1460306855393-0410f61241c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVyZ2VyfGVufDB8fDB8fHww"
               className="d-block w-100"
               style={{ filter: "brightness(30%)" }}
               alt="..."
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className="carousel-item">
             <img
-              src="https://source.unsplash.com/random/360×700/?pasta"
+              src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8"
               style={{ filter: "brightness(30%)" }}
               className="d-block w-100"
               alt="..."
@@ -108,9 +108,9 @@ export default function Home() {
       {/* Carousel end here */}
       <div className="container">
         {foodCat.length !== 0 ? (
-          foodCat.map((data) => {
+          foodCat.map((data, index) => {
             return (
-              <div className="row mb-3">
+              <div key={index} className="row mb-3">
                 <div className="fs-3 m-3" key={data._id}>
                   {data.CategoryName}
                 </div>
@@ -123,10 +123,10 @@ export default function Home() {
                         .toLowerCase()
                         .includes(search.toLocaleLowerCase())
                   )
-                  .map((filterItem) => {
+                  .map((filterItem, index) => {
                     return (
                       <div
-                        key={filterItem._id}
+                        key={index}
                         className="col-12 col-sm-6 col-md-6 col-lg-3 .px-1"
                       >
                         <Card
@@ -140,8 +140,7 @@ export default function Home() {
             );
           })
         ) : (
-          <div>Baking our servers....
-          it might take some time</div>
+          <div>Baking our servers.... it might take some time</div>
         )}
       </div>
       <Footer />
